@@ -1,7 +1,7 @@
 name: GitHub Pages
 
 permissions:
-    contents: write
+  contents: write
 
 on:
   push:
