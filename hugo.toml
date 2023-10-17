@@ -12,7 +12,7 @@ enableEmoji = true
   style = 'xcode-dark'
   guessSyntax = true
   lineNoStart = 1
-  lineNos = true
+  # lineNos = true
   lineNumbersInTable = true
 
 [params]
