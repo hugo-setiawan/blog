@@ -23,4 +23,3 @@ hugo new site .\ --force
 {{< /highlight >}}
 
 After installing a theme (I used [Etch](https://github.com/LukasJoswiak/etch)), I proceeded to follow some basic examples, and managed to create this first page!
-

@@ -3,6 +3,10 @@ languageCode = 'en-us'
 theme = 'etch'
 title = 'blog.hugosset.xyz'
 
+enableGitInfo = true
+enableRobotsTXT = true
+enableEmoji = true
+
 [markup]
   [markup.highlight]
   style = 'xcode-dark'
