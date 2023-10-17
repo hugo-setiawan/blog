@@ -3,9 +3,13 @@ languageCode = 'en-us'
 theme = 'etch'
 title = 'blog.hugosset.xyz'
 
-enableInlineShortcodes = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+[markup]
+  [markup.highlight]
+  style = 'xcode-dark'
+  guessSyntax = true
+  lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = true
 
 [params]
   description = "Personal blog of Hugo Sulaiman Setiawan"
@@ -30,3 +34,6 @@ pygmentsUseClasses = true
 
 [permalinks]
   posts = "/:title/"
+
+[security]
+  enableInlineShortcodes = true
