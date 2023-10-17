@@ -42,6 +42,7 @@ jobs:
           path: './public'
 
   deploy:
+    needs: build-and-upload
     runs-on: ubuntu-22.04
 
     environment:
