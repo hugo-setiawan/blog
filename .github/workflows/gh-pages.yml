@@ -1,9 +1,5 @@
 name: GitHub Pages
 
-permissions:
-  pages: write      # to deploy to Pages
-  id-token: write   # to verify the deployment originates from an appropriate source
-
 on:
   push:
     branches:
@@ -44,6 +40,10 @@ jobs:
   deploy:
     needs: build-and-upload
     runs-on: ubuntu-22.04
+
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
 
     environment:
       name: github-pages
