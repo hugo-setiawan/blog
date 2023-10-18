@@ -13,7 +13,7 @@ Well, here's at least how i installed Hugo (the framework) on my machine.
 winget install Hugo.Hugo.Extended
 {{< /highlight >}}
 
-Then, I created a [repository on GitHub](github.com/hugo-setiawan/blog) (since i plan on hosting this blog using GitHub pages).
+Then, I created a [repository on GitHub](https://github.com/hugo-setiawan/blog) (since i plan on hosting this blog using GitHub pages).
 
 After cloning said repository onto my local machine, i initialized the Hugo site inside the folder, making sure the root of the site is at the root of the repository.
 
